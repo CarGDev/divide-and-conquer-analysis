@@ -361,6 +361,22 @@ black src/ tests/
 
 [Specify your license here]
 
+## Performance Analysis
+
+See **[ANALYSIS.md](ANALYSIS.md)** for a comprehensive comparison and analysis of the algorithms, including:
+
+- Detailed performance metrics across sorted, reverse sorted, and random datasets
+- Execution time and memory usage comparisons
+- Operation counts (comparisons and swaps)
+- Discussion of discrepancies between theoretical analysis and practical performance
+- Explanations for observed performance characteristics
+
+The analysis document includes:
+- Performance tables for all dataset types
+- Theoretical vs practical performance analysis
+- Scalability analysis
+- Recommendations for algorithm selection
+
 ## Acknowledgments
 
 - Algorithms based on standard divide-and-conquer implementations
