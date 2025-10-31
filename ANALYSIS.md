@@ -39,6 +39,16 @@ This document presents a comprehensive comparison of Merge Sort and Quick Sort a
 
 ## 3. Performance Metrics Analysis
 
+### Performance Visualization
+
+The following plots visualize the performance comparison across different dataset types:
+
+![Time vs Size Comparison](plots/time_vs_size.png)
+*Figure 1: Execution time comparison between Merge Sort and Quick Sort across different dataset types and sizes*
+
+![Memory vs Size Comparison](plots/memory_vs_size.png)
+*Figure 2: Peak memory usage comparison between Merge Sort and Quick Sort across different dataset types and sizes*
+
 ### 3.1 Execution Time Comparison
 
 #### 3.1.1 Sorted Data
@@ -283,5 +293,14 @@ The results demonstrate that algorithm selection should consider not just theore
 
 ## Appendix: Raw Data Summary
 
-See `results/bench_results.csv` for complete raw data and `results/summary.json` for aggregated statistics.
+### Raw Data Files
+
+- **`results/bench_results.csv`**: Complete raw benchmark data with all runs
+- **`results/summary.json`**: Aggregated statistics per algorithm/dataset/size combination
+- **`results/bench.log`**: Detailed execution logs with system information
+
+### Visualization Files
+
+- **`plots/time_vs_size.png`**: Line charts showing execution time vs array size for each dataset type
+- **`plots/memory_vs_size.png`**: Line charts showing peak memory usage vs array size for each dataset type
 

@@ -34,8 +34,6 @@ ENV/
 *~
 
 # Project specific
-results/
-plots/
 *.log
 
 # OS
